@@ -67,8 +67,8 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
 
 
 
-            Button buttonViewAccidentHistory   = findViewById(R.id.BtnSignUp);
-            buttonViewAccidentHistory.setOnClickListener(new View.OnClickListener() {
+            Button reCaptchaButton   = findViewById(R.id.BtnSignUp);
+            reCaptchaButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
 
